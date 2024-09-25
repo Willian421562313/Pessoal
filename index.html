@@ -57,7 +57,7 @@ section{
 
 
 }
-section#sobre,section#cadastro,section#projetos,section#contato {
+section#sobre,section#projetos,section#cadastro,section#contato,{
 background-color: #fff;
 padding: 20px;
 border-radius: 8px;
@@ -67,7 +67,51 @@ footer{
   text-align: center;
   margin: 20px;
 }
+  h3 {
+    text-align: center;
+  }
 
+
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+
+
+  }
+
+
+  lable,
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor:pointer;
+  }
+  input[type="submit"]:hover{
+   background-color: #0056b3;
+  }
 
 </style>
 
@@ -78,6 +122,7 @@ footer{
       <ul>
         <li><a href="#sobre">𝔖𝔬𝔟𝔯𝔢 𝔐𝔦𝔪</a></li>
         <li><a href="#projetos">𝔓𝔯𝔬𝔧𝔢𝔱𝔬𝔰</a></li>
+         <li><a href="#cadastro">𝕮𝖆𝖉𝖆𝖘𝖙𝖗𝖔</a></li>
         <li><a href="#contato">ℭ𝔬𝔫𝔱𝔞𝔱𝔬</a></li>
           <li><a href="#cadastro">ℭ𝔬𝔫𝔱𝔞𝔱𝔬</a></li>
       </ul>
@@ -89,9 +134,6 @@ footer{
     <p> Sou Willian Gallas , moro de 𝖁𝖎𝖉𝖊𝖗𝖎𝖗𝖆 𝕾𝕮 , e gosto de jogar jogos um fut. </p>
   </section>
 
-
-
-
   <section id="projetos">
     <h2> 𝕻𝖗𝖔𝖏𝖊𝖙𝖔𝖘 </h2>
     <ul>
@@ -100,6 +142,38 @@ footer{
       <li>Projeto 3: <a href="#"> 𝔇𝔢𝔰𝔠𝔯𝔦𝔠̧𝔞̃𝔬 𝔇𝔢 𝔓𝔯𝔬𝔧𝔢𝔱𝔬 3</a> </li>
     </ul>
   </section>
+<section id="cadastro">
+<h3> Cadastro De Pessoas </h3>
+  <form>
+
+
+
+
+    <label>Nome</label>
+    <input type="text" id="nome" name="nome" required>
+    <label>Email</label>
+    <input type="email" id="email" name="email" required>
+    <label>Telefone</label>
+    <input type="tel" id="telefone" name="telefone" required>
+    <input type="submit" value="cadastrar">
+  </form>
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+</section>
+
   <section id="contato">
     <h2> 𝕮𝖔𝖓𝖙𝖆𝖙𝖔 </h2>
     <p> Entre em contato via Gmail <a
@@ -108,13 +182,17 @@ footer{
 
 
 
-
   <footer>
     <p> &copy; @2024 - Willian Gallas </p>
-  </footer>
+</footer>
+
+
+
+
+
+
+
 </body>
-
-
 </html>
 
 
